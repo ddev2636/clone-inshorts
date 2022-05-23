@@ -2,10 +2,10 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <footer className="text-center lg:text-left bg-gray-900 text-gray-700">
-    <div className="flex justify-center items-center lg:justify-between p-6 border-b border-gray-300">
+    <footer className="text-center lg:text-left bg-gray-900 text-gray-700 w-screen">
+    <div className="flex justify-center items-center lg:justify-between p-6 border-b lg:border-gray-300">
       <img src='http://techstory.in/wp-content/uploads/2016/01/Inshorts_logo.png'className='h-14 md:h-16 lg:h-20 '></img>
-      <div className="flex justify-center">
+      <div className="flex justify-between m-3">
         <a href="#!" className="mr-6 text-white">
           <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="facebook-f"
             className="w-2.5" role="img" xmlns="http://www.w3.org/2000/svg"
