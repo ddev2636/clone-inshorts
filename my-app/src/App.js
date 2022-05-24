@@ -10,7 +10,7 @@ function App() {
     <>     
 
     <Navbar/>
-    <div className="flex justify-center">
+    <div className="flex justify-center pt-40">
     <Card newsall={newsall}/>
     </div>
     <Footer/>
