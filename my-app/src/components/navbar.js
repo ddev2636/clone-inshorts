@@ -4,20 +4,23 @@ import { FaBars } from "react-icons/fa";
 
 const Navbar = () => {
     let Links =[
-      {name:" ",link:"/"},
-      {name:"HOME",link:"/"},
-      {name:"SERVICE",link:"/"},
-      {name:"ABOUT",link:"/"},
-      {name:"BLOG'S",link:"/"},
-      {name:"CONTACT",link:"/"},
-      {name:"CONTACT",link:"/"},
-      {name:"CONTACT",link:"/"},
+      {name:"All news ",link:"/"},
+      {name:"India",link:"/"},
+      {name:"Business",link:"/"},
+      {name:"Sports",link:"/"},
+      {name:"World",link:"/"},
+      {name:"Politics",link:"/"},
+      {name:"technology",link:"/"},
+      {name:"Entertainment",link:"/"},
+      {name:"Science",link:"/"},
+      {name:"Automobile",link:"/"},
+      {name:"Startup",link:"/"},
     ];
     let [open,setOpen]=useState(false);  return (
     
 
     <div className='flex h-20 w-full  fixed bg-white justify-between align-middle pr-10  lg:pt-0 lg:shadow-xl'>
-      <div onClick={()=>setOpen(!open)} className='text-3xl absolute top-6 md:top-9 left-8  cursor-pointer '>
+      <div onClick={()=>setOpen(!open)} className=' text-2xl md:text-3xl absolute top-5 md:top-9 left-8  cursor-pointer '>
       <FaBars/>
        </div>
        <div>
